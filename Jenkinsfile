@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    enviroment {
+    environment {
         DOCKER_IMAGE = 'apimonedastt'
         CONTAINER_NAME = 'dockerapimonedastt'
         DOCKER_NETWORK = 'dockermonedas_red'
